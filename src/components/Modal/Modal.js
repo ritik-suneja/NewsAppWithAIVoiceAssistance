@@ -47,7 +47,7 @@ const Modal = ({ isOpen, setIsOpen, showFeedback }) => {
           <Typography variant="h5">News by Terms</Typography>
           <div className={classes.chipContainer}>{['Donald Trump', 'Bitcoin', 'PlayStation 5', 'Smartphones'].map((term) => <Chip label={term} color="primary" className={classes.chip} />)}<Chip label="...and more" className={classes.chip} /></div>
         </div>
-        <Typography variant="body1" className={classes.trySaying}>Try saying: &quot;What&apos;s up with <strong><em>PlayStation 5</em></strong>&quot;</Typography>
+        <Typography variant="body1" className={classes.trySaying}>Try saying: &quot;What&apos;s up with <strong><em>Bitcoin</em></strong>&quot;</Typography>
         <Divider />
         <div className={classes.infoContainer}>
           <Typography variant="h5">News by Sources</Typography>

@@ -57,7 +57,6 @@ const App = () => {
       <Modal isOpen={isOpen} setIsOpen={setIsOpen} />
       {!newsArticles.length ? (
         <footer className={classes.footer}>
-          <img className={classes.image} src={logo} height="50px" alt="JSMastery logo" />
         </footer>
       ) : null}
     </div>
